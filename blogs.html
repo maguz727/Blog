@@ -4,8 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Blog</title>
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    
+    <header class="header">
+        <div class="social-container">
+            <a href="/"><img src="./assets/icons/facebook.png" alt="icono de facebook" class="social-icon"></a>
+            <a href="/"><img src="./assets/icons/twitter.png" alt="icono de twitter" class="social-icon"></a>
+            <a href="/"><img src="./assets/icons/instagram.png" alt="icono de instagram" class="social-icon"></a>
+            <a href="/"><img src="./assets/icons/youtube.png" alt="icono de youtube" class="social-icon"></a>
+            <a href="/"><img src="./assets/icons/linkedin.png" alt="icono de linkedin" class="social-icon"></a>
+        </div>
+        <div class="nav-container">
+            <div class="logo-container">
+                <a href="/"><img src="./assets/images/Logo-negro.png" alt="logo" class="logo"></a>
+            </div>
+            <div class="nav">
+                <a class="nav__link" href="./perfil.html">Sobre mí</a>
+            </div>
+        </div>
+    </header>
+    <main class="blog">
+        <div class="blog__container">
+            <section class="last-post__container">
+                <article class="last-post">
+                    <div class="last-post__image-container">
+                        <img class="last-post__image" src="./assets/images/main-news-img.png" alt="imagen mostrando dispositivos tecnológicos antigüos">
+                    </div>
+                    <div class="last-post__content">
+                        <h2 class="last-post__title">Título del Blogpost</h2>
+                        <p class="last-post__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, ipsum. Maiores dignissimos hic, commodi dicta velit perspiciatis quae a soluta placeat maxime delectus.</p>
+                        <a class="btn_read-more" href="#">Leer más</a>
+                    </div>
+                </article>
+            </section>
+            <section class="latest-posts">
+                <h3 class="latest-posts__title"></h3>
+                <div class="latest-posts__container">
+                    <article class="post-card"></article>
+                </div>
+            </section>
+        </div>
+    </main>
 </body>
 </html>
