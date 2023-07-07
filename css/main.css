@@ -315,6 +315,61 @@ html, body {
     color: var(--teal);
 }
 
+
+/* POSTS */
+
+.blog-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.post {
+    width: 90%;
+    max-width: 800px;
+}
+
+.post__header {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.post__image {
+    width: 100%;
+    max-width: 800px;
+}
+
+.post__title {
+    line-height: 1;
+    margin-bottom: 40px;
+}
+
+.post__description {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 60px;
+}
+
+.post__description img {
+    width: 100%;
+    max-width: 368px;
+    align-self: center;
+}
+
+.post__description a {
+    color: var(--teal);
+}
+
+.post__description a:hover {
+    color: var(--black);
+}
+
+
+
 /* MEDIA QUERYS */
 
 @media screen  and (min-width: 426px) {
