@@ -463,6 +463,121 @@ html, body {
     color: var(--black);
 }
 
+/* PROFILE */
+
+.profile__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__container {
+    width: 100%;
+    background-color: var(--teal);
+    min-height: 440px;
+    margin-bottom: 30px;
+}
+
+.header__profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    gap: 20px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+
+.profile__image {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.profession {
+    color: var(--teal);
+    font-family: var(--title-secundary);
+    font-size: 2rem;
+}
+
+.profession--white {
+    color: var(--white);
+}
+
+.profile__name {
+    padding-bottom: 10px;
+    font-family: var(--title-primary);
+    font-size: 4rem;
+    line-height: 1;
+    text-align: justify;
+    color: var(--black);
+}
+
+.profile__date {
+    color: var(--mint);
+}
+
+.profile__description {
+    padding: 10px 0;
+    text-align: justify;
+    color: var(--black);
+    line-height: 1.5;
+}
+
+/* PROJECTS */
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    gap: 10px;
+}
+
+.project-card__image {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.project-card__content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.project-card__title {
+    font-family: var(--title-primary);
+    font-size: 2.5rem;
+    line-height: .9;
+    margin-bottom: 10px;
+}
+
+.project-card__date {
+    color: #999999;
+}
+
+.status--doing {
+    color: #F24C3D;
+    font-weight: 700;
+}
+
+.status--done {
+    color: #22A699;
+    font-weight: 700;
+}
+
+.project-card__description {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+
 
 /* MEDIA QUERYS */
 
@@ -500,6 +615,19 @@ html, body {
         justify-content: space-evenly;
     }
 
+    .profile__image-container {
+        /* width: 60%; */
+        display: flex;
+        justify-content: center;
+    }
+
+    .profile__content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
     
 }
 
@@ -512,5 +640,14 @@ html, body {
     .contact-info > div {
         flex-direction: row;
         max-width: 100%;
+    }
+
+    .header__profile {
+        flex-direction: row;
+        gap: 50px;
+    }
+
+    .profile__content {
+        width: 60%;
     }
 }

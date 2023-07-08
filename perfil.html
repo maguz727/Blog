@@ -1,11 +1,188 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Blog</title>
+    <title>Maguz Blog</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Bebas+Neue&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header class="header">
+        <div class="social-container">
+            <a href="#"><img src="./assets/icons/facebook.png" alt="icono de facebook" class="social-icon"></a>
+            <a href="#"><img src="./assets/icons/twitter.png" alt="icono de twitter" class="social-icon"></a>
+            <a href="#"><img src="./assets/icons/instagram.png" alt="icono de instagram" class="social-icon"></a>
+            <a href="#"><img src="./assets/icons/youtube.png" alt="icono de youtube" class="social-icon"></a>
+            <a href="#"><img src="./assets/icons/linkedin.png" alt="icono de linkedin" class="social-icon"></a>
+        </div>
+        <div class="nav-container">
+            <div class="logo-container">
+                <a class="logo" href="./index.html">
+                    <p class="logo-maguz">MAGUZ</p>
+                    <p class="logo-blog">BLOG</p>
+                </a>
+            </div>
+            <div class="nav">
+                <a class="btn__read-more" href="./blogs.html">Blog</a>
+                <a class="btn__read-more" href="https://github.com/maguz727" target="_blank">Sobre mí</a>
+            </div>
+        </div>
+    </header>
+    <main class="blog">
+        <div class="profile__container">
+            <section class="header__container">
+                <article class="header__profile">
+                    <div class="profile__image-container">
+                        <img class="profile__image" src="./assets/images/foto-perfil.jpeg" alt="imagen mostrando dispositivos tecnológicos antigüos">
+                    </div>
+                    <div class="profile__content">
+                        <P class="profession profession--white">Web Developer</P>
+                        <h1 class="profile__name">MANUEL GUZMAN SOTO</h1>
+                        <em class="profile__date">35 años | Medellín - Colombia</em>
+                        <p class="profile__description">Soy un desarrollador web que está en proceso de aprendizaje, soy una persona curiosa y apasionada por el mundo de la tecnología y la creación de sitios web. Me siento emocionado y motivado por aprender y dominar los fundamentos de la programación web.</p>
+                        <p class="profile__description">Soy alguien que disfruta enfrentando nuevos desafíos y resolviendo problemas, ya que sé que cada obstáculo superado es una oportunidad para crecer y mejorar mis habilidades. A pesar de estar en mis primeros pasos, tengo una mentalidad abierta y estoy dispuesto a aprender de mis errores, aprovechando cada experiencia como una lección para mi crecimiento personal y profesional.</p>
+                        <p class="profile__description">Tengo una sed constante de conocimiento y estoy constantemente buscando nuevas formas de ampliar mis habilidades. Me sumerjo en tutoriales, documentación y recursos en línea para adquirir conocimientos en todo tipo de legunaje tales como <b>HTML, CSS y JavaScript,</b> así como también herramientas y frameworks populares en la industria.</p>
+                    </div>
+                </article>
+            </section>
+
+            <section class="latest-posts">
+                <h2 class="section-title">PORTAFOLIO</h2>
+                <div class="latest-posts__container">
+
+                    <article class="project-card">
+                        <p class="post-category">Blogs</p>
+                        <div class="project-card__image-container">
+                            <img class="project-card__image" src="./assets/images/project-blog.jpg" alt="Imagen de una página web de un blog">
+                        </div>
+                        <div class="project-card__content">
+                            <div>
+                                <h3 class="project-card__title">Maguz Blog</h3>
+                                <em class="project-card__date">julio 05, 2023 | <span class="project-card__status status--doing">En Proceso</span> </em>
+                            </div>
+                            <p class="project-card__description">
+                                Este proyecto recrea el diseño de un blog de novedades y noticias del mundo <b>Tech.</b> Adicionalmente se muestra mi portafolio de projectos.
+                            </p>
+                        </div>
+                        <div class="card__button">
+                            <a class="btn__read-more" href="https://maguz727.github.io/Blog/" target="_blank">Visitar</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <p class="post-category">Restaurante - Café</p>
+                        <div class="project-card__image-container">
+                            <img class="project-card__image" src="./assets/images/project-coffee-shop.jpg" alt="Imagen de una página web de cafetería">
+                        </div>
+                        <div class="project-card__content">
+                            <div>
+                                <h3 class="project-card__title">Coffee Shop</h3>
+                                <em class="project-card__date">junio 29, 2023 | <span class="project-card__status status--done">Terminada</span> </em>
+                            </div>
+                            <p class="project-card__description">
+                                Este proyecto recrea el diseño de una página web para una tienda de café con algunos productos y sus categorías. Se tuvo como inspiración a <b>Starbucks.</b>
+                            </p>
+                        </div>
+                        <div class="card__button">
+                            <a class="btn__read-more" href="https://maguz727.github.io/batatabit/" target="_blank">Visitar</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <p class="post-category">Criptomonedas</p>
+                        <div class="project-card__image-container">
+                            <img class="project-card__image" src="./assets/images/project-batatabit.jpg" alt="imagen de corazón con números binarios">
+                        </div>
+                        <div class="project-card__content">
+                            <div>
+                                <h3 class="project-card__title">Batatabit</h3>
+                                <em class="project-card__date">junio 13, 2023 | <span class="project-card__status status--done">Terminada</span> </em>
+                            </div>
+                            <p class="project-card__description">
+                                Pagina web que se creó como projecto de práctica en un curso tomado en <b>Platzi</b> y que sirve para demostrar habilidades en <b>HTML</b> y <b>CSS.</b>
+                            </p>
+                        </div>
+                        <div class="card__button">
+                            <a class="btn__read-more" href="https://maguz727.github.io/batatabit/" target="_blank">Visitar</a>
+                        </div>
+                    </article>
+                    
+                    <article class="project-card">
+                        <p class="post-category">Deportes</p>
+                        <div class="project-card__image-container">
+                            <img class="project-card__image" src="./assets/images/project-nba-fans.jpg" alt="imagen de corazón con números binarios">
+                        </div>
+                        <div class="project-card__content">
+                            <div>
+                                <h3 class="project-card__title">NBA Fans</h3>
+                                <em class="project-card__date">mayo 27, 2023 | <span class="project-card__status status--doing">En Proeceso</span> </em>
+                            </div>
+                            <p class="project-card__description">
+                                Esta página web cuenta con información de los equipos y jugadores de la NBA. También tendrá los resultados de la siguiente temporada 2023/2024
+                            </p>
+                        </div>
+                        <div class="card__button">
+                            <a class="btn__read-more" href="https://maguz727.github.io/nba-fans/" target="_blank">Visitar</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <p class="post-category">Restaurante - Café</p>
+                        <div class="project-card__image-container">
+                            <img class="project-card__image" src="./assets/images/project-menu.jpg" alt="Imagen de una página web de cafetería">
+                        </div>
+                        <div class="project-card__content">
+                            <div>
+                                <h3 class="project-card__title">Burger MAGUZ</h3>
+                                <em class="project-card__date">mayo 11, 2023 | <span class="project-card__status status--done">Terminada</span> </em>
+                            </div>
+                            <p class="project-card__description">
+                                Este proyecto muestra un sencillo y simple menú de restaurante de hamburguesas para presentar a través de la web sus productos y no usar carta física.
+                            </p>
+                        </div>
+                        <div class="card__button">
+                            <a class="btn__read-more" href="https://maguz727.github.io/menu-simple-restaurante/" target="_blank">Visitar</a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section class="contact-info">
+                <div>
+                    <div class="contact">
+                        <div class="logo-container logo-container--bottom">
+                            <span class="logo--bottom">
+                                <p class="logo-maguz logo-maguz--bottom">MAGUZ</p>
+                                <p class="logo-blog logo-blog--bottom">BLOG</p>
+                            </span>
+                        </div>
+                        <div class="contact__text">
+                            <p>Bienvenido a nuestra página de noticias de tecnología, tu fuente confiable para estar al día con las últimas novedades en el mundo de la tecnología. Nuestro objetivo es brindarte información precisa y actualizada sobre los avances tecnológicos, las tendencias emergentes y las noticias relevantes en este fascinante campo</p>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <div class="icon-container">
+                            <img class="icon-image" src="./assets/images/013-newsletter.png" alt="icono con una carta">
+                        </div>
+                        <div class="contact__text">
+                            <p>Nuestro equipo de expertos en tecnología está comprometido en brindarte información clara y accesible, respaldada por explicaciones concisas, para mantenerte al día en el emocionante mundo de la tecnología. <a href="mailto:maguz727@gmail.com">Únete</a> a nuestra comunidad, participa en la conversación y descubre todo lo que necesitas saber en un solo lugar.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="reference">
+            <p class="reference__text">Noticias de: </p>
+            <p><a class="reference__link" href="https://www.enter.co/" target="_blank">ENTER.CO</a></p>
+        </div>
+        <div class="info">
+            <p class="info__text">Creada por:</p>
+            <p><a class="info__link" href="https://github.com/maguz727" target="_blank">Manuel Guzmán</a></p>
+        </div>
+    </footer>
 </body>
 </html>
