@@ -501,6 +501,7 @@ html, body {
     color: var(--teal);
     font-family: var(--title-secundary);
     font-size: 2rem;
+    line-height: .8;
 }
 
 .profession--white {
@@ -508,16 +509,16 @@ html, body {
 }
 
 .profile__name {
-    padding-bottom: 10px;
     font-family: var(--title-primary);
-    font-size: 4rem;
     line-height: 1;
-    text-align: justify;
+    font-size: 4rem;
     color: var(--black);
+    line-height: .8;
 }
 
 .profile__date {
     color: var(--mint);
+    margin-bottom: 20px;
 }
 
 .profile__description {
