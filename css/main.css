@@ -294,6 +294,10 @@ html, body {
     color: #999999;
 }
 
+.card__date--mint {
+    color: var(--mint);
+}
+
 .card__description {
     text-align: justify;
     line-height: 1.5;
